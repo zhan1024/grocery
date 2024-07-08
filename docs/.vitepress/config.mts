@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Grocery",
+  base: "/docs/",
   description: "This is xiaozhan's grocery",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
