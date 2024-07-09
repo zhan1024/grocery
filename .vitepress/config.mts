@@ -4,11 +4,12 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";	// 改成自己的路径
 export default defineConfig({
   base: "/grocery/",
   title: "ipei",
+  head: [["link", { rel: "icon", href: "/grocery/logo.svg" }]],
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle: "目录",
     outline: 'deep',
-    logo: '/logo.png',
+    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
