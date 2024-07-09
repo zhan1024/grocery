@@ -18,7 +18,7 @@ export default defineConfig({
           { text: '小程序', link: '/wechat-demo' },
         ]
       },
-      { text: '设计模式', link: '/' },
+      { text: '设计模式', link: '/designMode' },
       { text: 'Home', link: '/' },
       { text: '语雀', link: 'https://www.yuque.com/zhanwh/adc8xc/tus9046c6qx0yxc4?singleDoc# 《每日一题》' }
     ],
