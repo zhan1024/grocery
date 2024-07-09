@@ -13,9 +13,9 @@ export default defineConfig({
     nav: [
       {
         text: '前端', items: [
-          { text: 'Vue', link: '/' },
-          { text: 'React', link: '/' },
-          { text: '小程序', link: '/' },
+          { text: 'Vue', link: '/vue-demo' },
+          { text: 'React', link: '/react-demo' },
+          { text: '小程序', link: '/wechat-demo' },
         ]
       },
       { text: '设计模式', link: '/' },
